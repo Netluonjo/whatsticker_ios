@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB0100012C9F000100000001 /* WhatStickeriOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0200012C9F000100000001 /* WhatStickeriOSApp.swift */; };
+		BB0100022C9F000100000001 /* StickerModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0200022C9F000100000001 /* StickerModels.swift */; };
+		BB0100032C9F000100000001 /* EditorModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0200032C9F000100000001 /* EditorModels.swift */; };
+		BB0100042C9F000100000001 /* PresetData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0200042C9F000100000001 /* PresetData.swift */; };
+		BB0100052C9F000100000001 /* MagicSelectorEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0200052C9F000100000001 /* MagicSelectorEngine.swift */; };
+		BB0100062C9F000100000001 /* StickerProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0200062C9F000100000001 /* StickerProcessor.swift */; };
+		BB0100072C9F000100000001 /* AnimatedStickerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0200072C9F000100000001 /* AnimatedStickerHelper.swift */; };
+		BB0100082C9F000100000001 /* StickerRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0200082C9F000100000001 /* StickerRepository.swift */; };
+		BB0100092C9F000100000001 /* WhatsAppExporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0200092C9F000100000001 /* WhatsAppExporter.swift */; };
+		BB01000A2C9F000100000001 /* TelegramExporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB02000A2C9F000100000001 /* TelegramExporter.swift */; };
+		BB01000B2C9F000100000001 /* StoreKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB02000B2C9F000100000001 /* StoreKitManager.swift */; };
+		BB01000C2C9F000100000001 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB02000C2C9F000100000001 /* MainTabView.swift */; };
+		BB01000D2C9F000100000001 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB02000D2C9F000100000001 /* ExploreView.swift */; };
+		BB01000E2C9F000100000001 /* PackDetailSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB02000E2C9F000100000001 /* PackDetailSheet.swift */; };
+		BB01000F2C9F000100000001 /* TemplatesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB02000F2C9F000100000001 /* TemplatesView.swift */; };
+		BB0100102C9F000100000001 /* MemeCreatorSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0200102C9F000100000001 /* MemeCreatorSheet.swift */; };
+		BB0100112C9F000100000001 /* CreateOptionsSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0200112C9F000100000001 /* CreateOptionsSheet.swift */; };
+		BB0100122C9F000100000001 /* StickerEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0200122C9F000100000001 /* StickerEditorView.swift */; };
+		BB0100132C9F000100000001 /* AnimatedEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0200132C9F000100000001 /* AnimatedEditorView.swift */; };
+		BB0100142C9F000100000001 /* MyPacksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0200142C9F000100000001 /* MyPacksView.swift */; };
+		BB0100152C9F000100000001 /* ImportCodeDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0200152C9F000100000001 /* ImportCodeDialog.swift */; };
+		BB0100162C9F000100000001 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0200162C9F000100000001 /* ProfileView.swift */; };
+		BB0100172C9F000100000001 /* EditProfileDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0200172C9F000100000001 /* EditProfileDialog.swift */; };
+		BB0100182C9F000100000001 /* VipPaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0200182C9F000100000001 /* VipPaywallView.swift */; };
+		BB0100192C9F000100000001 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB0200192C9F000100000001 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BB0000012C9F000100000001 /* WhatStickeriOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatStickeriOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB0200012C9F000100000001 /* WhatStickeriOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatStickeriOSApp.swift; sourceTree = "<group>"; };
+		BB0200022C9F000100000001 /* StickerModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickerModels.swift; sourceTree = "<group>"; };
+		BB0200032C9F000100000001 /* EditorModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorModels.swift; sourceTree = "<group>"; };
+		BB0200042C9F000100000001 /* PresetData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresetData.swift; sourceTree = "<group>"; };
+		BB0200052C9F000100000001 /* MagicSelectorEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicSelectorEngine.swift; sourceTree = "<group>"; };
+		BB0200062C9F000100000001 /* StickerProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickerProcessor.swift; sourceTree = "<group>"; };
+		BB0200072C9F000100000001 /* AnimatedStickerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedStickerHelper.swift; sourceTree = "<group>"; };
+		BB0200082C9F000100000001 /* StickerRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickerRepository.swift; sourceTree = "<group>"; };
+		BB0200092C9F000100000001 /* WhatsAppExporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsAppExporter.swift; sourceTree = "<group>"; };
+		BB02000A2C9F000100000001 /* TelegramExporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelegramExporter.swift; sourceTree = "<group>"; };
+		BB02000B2C9F000100000001 /* StoreKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreKitManager.swift; sourceTree = "<group>"; };
+		BB02000C2C9F000100000001 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		BB02000D2C9F000100000001 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		BB02000E2C9F000100000001 /* PackDetailSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackDetailSheet.swift; sourceTree = "<group>"; };
+		BB02000F2C9F000100000001 /* TemplatesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplatesView.swift; sourceTree = "<group>"; };
+		BB0200102C9F000100000001 /* MemeCreatorSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemeCreatorSheet.swift; sourceTree = "<group>"; };
+		BB0200112C9F000100000001 /* CreateOptionsSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateOptionsSheet.swift; sourceTree = "<group>"; };
+		BB0200122C9F000100000001 /* StickerEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickerEditorView.swift; sourceTree = "<group>"; };
+		BB0200132C9F000100000001 /* AnimatedEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedEditorView.swift; sourceTree = "<group>"; };
+		BB0200142C9F000100000001 /* MyPacksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPacksView.swift; sourceTree = "<group>"; };
+		BB0200152C9F000100000001 /* ImportCodeDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportCodeDialog.swift; sourceTree = "<group>"; };
+		BB0200162C9F000100000001 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		BB0200172C9F000100000001 /* EditProfileDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileDialog.swift; sourceTree = "<group>"; };
+		BB0200182C9F000100000001 /* VipPaywallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VipPaywallView.swift; sourceTree = "<group>"; };
+		BB0200192C9F000100000001 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB0200202C9F000100000001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB0300012C9F000100000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB0400012C9F000100000001 = {
+			isa = PBXGroup;
+			children = (
+				BB0400022C9F000100000001 /* WhatStickeriOS */,
+				BB0400082C9F000100000001 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB0400022C9F000100000001 /* WhatStickeriOS */ = {
+			isa = PBXGroup;
+			children = (
+				BB0200012C9F000100000001 /* WhatStickeriOSApp.swift */,
+				BB0400032C9F000100000001 /* Models */,
+				BB0400042C9F000100000001 /* Services */,
+				BB0400052C9F000100000001 /* Views */,
+				BB0200192C9F000100000001 /* Assets.xcassets */,
+				BB0200202C9F000100000001 /* Info.plist */,
+			);
+			path = WhatStickeriOS;
+			sourceTree = "<group>";
+		};
+		BB0400032C9F000100000001 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BB0200022C9F000100000001 /* StickerModels.swift */,
+				BB0200032C9F000100000001 /* EditorModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BB0400042C9F000100000001 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				BB0200042C9F000100000001 /* PresetData.swift */,
+				BB0200052C9F000100000001 /* MagicSelectorEngine.swift */,
+				BB0200062C9F000100000001 /* StickerProcessor.swift */,
+				BB0200072C9F000100000001 /* AnimatedStickerHelper.swift */,
+				BB0200082C9F000100000001 /* StickerRepository.swift */,
+				BB0200092C9F000100000001 /* WhatsAppExporter.swift */,
+				BB02000A2C9F000100000001 /* TelegramExporter.swift */,
+				BB02000B2C9F000100000001 /* StoreKitManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		BB0400052C9F000100000001 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BB02000C2C9F000100000001 /* MainTabView.swift */,
+				BB0400062C9F000100000001 /* Explore */,
+				BB0400072C9F000100000001 /* Templates */,
+				BB0400092C9F000100000001 /* Editor */,
+				BB04000A2C9F000100000001 /* MyPacks */,
+				BB04000B2C9F000100000001 /* Profile */,
+				BB04000C2C9F000100000001 /* Paywall */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BB0400062C9F000100000001 /* Explore */ = {
+			isa = PBXGroup;
+			children = (
+				BB02000D2C9F000100000001 /* ExploreView.swift */,
+				BB02000E2C9F000100000001 /* PackDetailSheet.swift */,
+			);
+			path = Explore;
+			sourceTree = "<group>";
+		};
+		BB0400072C9F000100000001 /* Templates */ = {
+			isa = PBXGroup;
+			children = (
+				BB02000F2C9F000100000001 /* TemplatesView.swift */,
+				BB0200102C9F000100000001 /* MemeCreatorSheet.swift */,
+			);
+			path = Templates;
+			sourceTree = "<group>";
+		};
+		BB0400092C9F000100000001 /* Editor */ = {
+			isa = PBXGroup;
+			children = (
+				BB0200112C9F000100000001 /* CreateOptionsSheet.swift */,
+				BB0200122C9F000100000001 /* StickerEditorView.swift */,
+				BB0200132C9F000100000001 /* AnimatedEditorView.swift */,
+			);
+			path = Editor;
+			sourceTree = "<group>";
+		};
+		BB04000A2C9F000100000001 /* MyPacks */ = {
+			isa = PBXGroup;
+			children = (
+				BB0200142C9F000100000001 /* MyPacksView.swift */,
+				BB0200152C9F000100000001 /* ImportCodeDialog.swift */,
+			);
+			path = MyPacks;
+			sourceTree = "<group>";
+		};
+		BB04000B2C9F000100000001 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				BB0200162C9F000100000001 /* ProfileView.swift */,
+				BB0200172C9F000100000001 /* EditProfileDialog.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		BB04000C2C9F000100000001 /* Paywall */ = {
+			isa = PBXGroup;
+			children = (
+				BB0200182C9F000100000001 /* VipPaywallView.swift */,
+			);
+			path = Paywall;
+			sourceTree = "<group>";
+		};
+		BB0400082C9F000100000001 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB0000012C9F000100000001 /* WhatStickeriOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB0500012C9F000100000001 /* WhatStickeriOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB0600012C9F000100000001 /* Build configuration list for PBXNativeTarget "WhatStickeriOS" */;
+			buildPhases = (
+				BB0700012C9F000100000001 /* Sources */,
+				BB0300012C9F000100000001 /* Frameworks */,
+				BB0800012C9F000100000001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WhatStickeriOS;
+			productName = WhatStickeriOS;
+			productReference = BB0000012C9F000100000001 /* WhatStickeriOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB0900012C9F000100000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					BB0500012C9F000100000001 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = BB0600022C9F000100000001 /* Build configuration list for PBXProject "WhatStickeriOS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB0400012C9F000100000001;
+			productRefGroup = BB0400082C9F000100000001 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB0500012C9F000100000001 /* WhatStickeriOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB0800012C9F000100000001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB0100192C9F000100000001 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB0700012C9F000100000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB0100012C9F000100000001 /* WhatStickeriOSApp.swift in Sources */,
+				BB0100022C9F000100000001 /* StickerModels.swift in Sources */,
+				BB0100032C9F000100000001 /* EditorModels.swift in Sources */,
+				BB0100042C9F000100000001 /* PresetData.swift in Sources */,
+				BB0100052C9F000100000001 /* MagicSelectorEngine.swift in Sources */,
+				BB0100062C9F000100000001 /* StickerProcessor.swift in Sources */,
+				BB0100072C9F000100000001 /* AnimatedStickerHelper.swift in Sources */,
+				BB0100082C9F000100000001 /* StickerRepository.swift in Sources */,
+				BB0100092C9F000100000001 /* WhatsAppExporter.swift in Sources */,
+				BB01000A2C9F000100000001 /* TelegramExporter.swift in Sources */,
+				BB01000B2C9F000100000001 /* StoreKitManager.swift in Sources */,
+				BB01000C2C9F000100000001 /* MainTabView.swift in Sources */,
+				BB01000D2C9F000100000001 /* ExploreView.swift in Sources */,
+				BB01000E2C9F000100000001 /* PackDetailSheet.swift in Sources */,
+				BB01000F2C9F000100000001 /* TemplatesView.swift in Sources */,
+				BB0100102C9F000100000001 /* MemeCreatorSheet.swift in Sources */,
+				BB0100112C9F000100000001 /* CreateOptionsSheet.swift in Sources */,
+				BB0100122C9F000100000001 /* StickerEditorView.swift in Sources */,
+				BB0100132C9F000100000001 /* AnimatedEditorView.swift in Sources */,
+				BB0100142C9F000100000001 /* MyPacksView.swift in Sources */,
+				BB0100152C9F000100000001 /* ImportCodeDialog.swift in Sources */,
+				BB0100162C9F000100000001 /* ProfileView.swift in Sources */,
+				BB0100172C9F000100000001 /* EditProfileDialog.swift in Sources */,
+				BB0100182C9F000100000001 /* VipPaywallView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BB0A00012C9F000100000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BB0A00022C9F000100000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB0A00032C9F000100000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = WhatStickeriOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.whatsticker.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB0A00042C9F000100000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = WhatStickeriOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.whatsticker.ios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB0600012C9F000100000001 /* Build configuration list for PBXNativeTarget "WhatStickeriOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB0A00032C9F000100000001 /* Debug */,
+				BB0A00042C9F000100000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB0600022C9F000100000001 /* Build configuration list for PBXProject "WhatStickeriOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB0A00012C9F000100000001 /* Debug */,
+				BB0A00022C9F000100000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = BB0900012C9F000100000001 /* Project object */;
+}
