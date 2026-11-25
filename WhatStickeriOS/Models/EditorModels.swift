@@ -120,3 +120,4 @@ public struct EditorHistorySnapshot: Equatable {
     public var emojiOverlays: [EmojiOverlay]
     public var isBackgroundRemoved: Bool
 }
+

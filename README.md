@@ -137,3 +137,4 @@ D:/whatsticker_ios/
         └── Paywall/
             └── VipPaywallView.swift  # Màn hình đăng ký VIP Pro
 ```
+

@@ -75,3 +75,4 @@ public final class AnimatedStickerHelper {
         return data as Data
     }
 }
+

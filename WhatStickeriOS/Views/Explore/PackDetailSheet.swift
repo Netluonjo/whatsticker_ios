@@ -205,3 +205,4 @@ public struct PackDetailSheet: View {
         TelegramExporter.shared.openTelegramStickersBot()
     }
 }
+

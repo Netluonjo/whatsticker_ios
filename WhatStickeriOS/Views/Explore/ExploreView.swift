@@ -235,3 +235,4 @@ public struct ExploreView: View {
         .shadow(color: Color.black.opacity(0.04), radius: 6, x: 0, y: 3)
     }
 }
+

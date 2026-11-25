@@ -13,3 +13,4 @@ struct WhatStickeriOSApp: App {
         }
     }
 }
+

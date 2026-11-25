@@ -198,3 +198,4 @@ public struct UserProfile: Identifiable, Codable, Equatable {
         self.socialLinks = socialLinks
     }
 }
+

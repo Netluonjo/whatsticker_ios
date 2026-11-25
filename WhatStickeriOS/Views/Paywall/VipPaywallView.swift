@@ -148,3 +148,4 @@ public struct VipPaywallView: View {
         }
     }
 }
+

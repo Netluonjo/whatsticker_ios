@@ -384,3 +384,4 @@ public struct StickerEditorView: View {
         .padding(.top, 16)
     }
 }
+
