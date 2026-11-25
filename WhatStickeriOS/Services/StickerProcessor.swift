@@ -1,5 +1,7 @@
 import Foundation
 import UIKit
+import SwiftUI
+import AVFoundation
 import CoreImage
 import CoreImage.CIFilterBuiltins
 
@@ -17,7 +19,7 @@ public final class StickerProcessor {
         outlineColor: UIColor = .white
     ) -> UIImage {
         guard outlineWidth > 0 else { return image }
-        guard let cgImage = image.cgImage else { return image }
+        guard image.cgImage != nil else { return image }
 
         let padding = outlineWidth * 2
         let newWidth = image.size.width + padding * 2
@@ -148,7 +150,7 @@ extension UIColor {
     }
 }
 
-extension Color {
+public extension Color {
     init(hex: String) {
         let cleanHex = hex.trimmingCharacters(in: CharacterSet.alphanumerics.inverted)
         var int: UInt64 = 0

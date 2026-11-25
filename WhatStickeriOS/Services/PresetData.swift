@@ -6,7 +6,7 @@ public struct PresetData {
     // MARK: - Meme Templates
     public static let memeTemplates: [MemeTemplate] = [
         MemeTemplate(
-            id = "meme_drake",
+            id: "meme_drake",
             name: "Drake Hotline Bling",
             category: "Classic",
             defaultTopText: "Texting with plain words",
@@ -15,7 +15,7 @@ public struct PresetData {
             accentColorHex: "#FF9F43"
         ),
         MemeTemplate(
-            id = "meme_distracted",
+            id: "meme_distracted",
             name: "Distracted Boyfriend",
             category: "Classic",
             defaultTopText: "Me",
@@ -24,7 +24,7 @@ public struct PresetData {
             accentColorHex: "#EE5253"
         ),
         MemeTemplate(
-            id = "meme_doge_cheems",
+            id: "meme_doge_cheems",
             name: "Buff Doge vs Cheems",
             category: "Animals",
             defaultTopText: "Me in 2012 making memes",
@@ -33,7 +33,7 @@ public struct PresetData {
             accentColorHex: "#F368E0"
         ),
         MemeTemplate(
-            id = "meme_woman_cat",
+            id: "meme_woman_cat",
             name: "Woman Yelling at Cat",
             category: "Animals",
             defaultTopText: "You didn't reply for 5 minutes!",
@@ -42,7 +42,7 @@ public struct PresetData {
             accentColorHex: "#0ABDE3"
         ),
         MemeTemplate(
-            id = "meme_pikachu",
+            id: "meme_pikachu",
             name: "Surprised Pikachu",
             category: "Reactions",
             defaultTopText: "Exports sticker to WhatsApp",
@@ -51,7 +51,7 @@ public struct PresetData {
             accentColorHex: "#FFD32A"
         ),
         MemeTemplate(
-            id = "meme_trade_offer",
+            id: "meme_trade_offer",
             name: "Trade Offer",
             category: "Trending",
             defaultTopText: "I receive: A funny selfie",
@@ -60,7 +60,7 @@ public struct PresetData {
             accentColorHex: "#10AC84"
         ),
         MemeTemplate(
-            id = "meme_gigachad",
+            id: "meme_gigachad",
             name: "GigaChad",
             category: "Trending",
             defaultTopText: "Average sticker user",
@@ -69,7 +69,7 @@ public struct PresetData {
             accentColorHex: "#576574"
         ),
         MemeTemplate(
-            id = "meme_this_is_fine",
+            id: "meme_this_is_fine",
             name: "This is Fine",
             category: "Reactions",
             defaultTopText: "Deadline is in 10 minutes",
@@ -78,7 +78,7 @@ public struct PresetData {
             accentColorHex: "#FF6B6B"
         ),
         MemeTemplate(
-            id = "meme_expanding_brain",
+            id: "meme_expanding_brain",
             name: "Expanding Brain",
             category: "Classic",
             defaultTopText: "Sending text",
